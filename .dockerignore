@@ -1,0 +1,15 @@
+node_modules
+dist
+.git
+.gitignore
+Dockerfile
+.dockerignore
+.eslintrc.cjs
+.prettierrc
+.prettierrc.json
+.vscode
+tsconfig.vitest.json
+vitest.config.ts
+tests
+coverage
+.gitlab-ci.yml
