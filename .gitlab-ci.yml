@@ -44,6 +44,6 @@ deploy:
     - docker stop node-api-proxy-server || true
     - docker rm node-api-proxy-server || true
     - docker build -t node-api-proxy-server .
-    - docker run --network="servicenet" --name node-api-proxy-server -p 5151:5151 -d node-api-proxy-server
+    - docker run --network="servicenet" --name node-api-proxy-server -p 5152:5152 -d node-api-proxy-server
     - docker update --restart unless-stopped node-api-proxy-server
     - echo "Deploy stage complete."
